@@ -1,0 +1,77 @@
+.checkout{
+    width: 100%;
+    height: 140vh;
+    background:white;
+    padding-top: 140px;
+}
+
+.checkout-container{
+    width: 580px;
+    height:800px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    box-shadow: 0px 0px 100px rgba(0,0,0,0.2);
+}
+.checkout-container h1{
+    margin: 20px 0px;
+}
+.checkout-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.checkout-fields input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.checkout-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background:#ff4141;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.checkout-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.checkout-login span{
+    color: #ff4141; 
+     font-weight: 600;
+    display: inline-block;
+}
+.checkout-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap:20px;
+    color:#5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.checkarea{
+    height: 50px;
+    width: 100%;
+    padding-top: 27px;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}

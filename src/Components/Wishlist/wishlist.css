@@ -1,0 +1,40 @@
+.whole{
+    margin-top: 200px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 60px;
+}
+.whole img{
+    width: 250px;
+    height: 300px;
+}
+.price{
+    display: flex;
+    gap: 20px;
+}
+.new{
+    color:#f30b0b;
+    font-size: 18x;
+    font-weight: 600;
+}
+.old{
+    color: #8c8c8c;;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.wish:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+
+}
+.wishempty{
+    margin-left: 540px;
+    width: 100%;
+}
+.wishempty img{
+    width: 350px;
+}
+.wishempty h2{
+    margin-left: 35px;
+}

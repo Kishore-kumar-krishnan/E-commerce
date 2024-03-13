@@ -1,0 +1,36 @@
+.description{
+    margin:120px 170px;
+}
+.description-navigator{
+    display: flex;
+}
+.des-but{
+    margin-top:22px;
+    font-size: 20px;
+    }
+.description-nav-box {
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    border:1px solid grey;
+}
+
+
+.review {
+    width: 180px;
+    height: 70px;
+    border:1px solid grey;
+}
+
+.rev-but{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.description-description{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border: 1px solid #d0d0d0;
+    padding: 48px;
+    padding-bottom: 70px;
+}
