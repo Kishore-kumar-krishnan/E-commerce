@@ -10,8 +10,6 @@ const Item = (props) => {
   const [wishlist,setwishlist]=useState(false);
   const cart=(i)=>{
     if(!(addtocart.includes(i))){
-      console.log("props"+JSON.stringify(props));
-      console.log("kavin"+JSON.stringify(i));
         addtocart.push(i);
     }
   }

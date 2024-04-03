@@ -63,9 +63,7 @@ const c1=[];
       
          {/* <BsHeartbreak size={90}/> */}
       </div>
-    )
-    
-    
+    )  
 }
 
 
